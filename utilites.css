@@ -16,3 +16,12 @@
     border-radius: 5px;
     color: white;
   }
+
+  .btn-phone{
+    padding: 5px 5px;
+    cursor: pointer;
+    background: #42a148 ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
