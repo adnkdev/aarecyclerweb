@@ -29,7 +29,7 @@ ul {
 a {
   text-decoration: none;
   color: #333;
-  font-weight: 1000;
+  font-weight: bolder;
 
 }
 
@@ -58,14 +58,14 @@ p {
 .navbar {
     position: fixed;
     top: 0;
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     width: 100%;
     z-index: 9999;
 }
 
 .nav-container {
 
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     max-width: 1000px;
     margin: 0 auto;
     overflow: auto;
@@ -220,24 +220,6 @@ ul a:hover {
 
 }
 
-.service1 {
- 
-
-}
-
-.service2 {
-
-}
-
-.product1{
-
-
-}
-
-.product2{
- 
-  
-}
 
 .pic1 {
   
@@ -282,12 +264,13 @@ ul a:hover {
 .location-contact-container{
   
   background-color:  rgb(247, 247, 247);
-  height: 600px;
   max-width: 1300px;
   margin: 5px auto;
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+
   
 
 }
@@ -298,6 +281,8 @@ ul a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem 0;
+  
  
 }
 
@@ -332,16 +317,7 @@ ul a:hover {
   font-weight: 1000;
 }
 
-.field{
-	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
-	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
-	font-size: 1.1rem;
-	margin-bottom: 22px;
-	transition: .3s;
-}
+
 
 .contact button:hover {
  
@@ -359,35 +335,41 @@ textarea{
 
 
 footer {
-  background-color:  rgb(247, 247, 247) ;
-  margin-top: 50px;
+  background-color: white ;
+}
+
+
+.footer-container {
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
 }
 
 .footer-logo {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
  
 }
 
+footer .btn-shape {
+  padding: 3px 3px;
+}
 
-.footer-container {
-  background-color: rgb(247, 247, 247);
-  max-width: 1300px;
-  margin: 0 auto;
-  display: grid;
-  height: 150px;
-  grid-template-columns: repeat(3, 1fr);
-  border-style: solid;
-  border-color: #333;
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
 
 .social-media {
   width: 100%;
-  border-style: solid;
-  border-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -431,12 +413,109 @@ footer {
 
 
 
+/* position html*/
+
+.pos-container {
+  max-width: 1100px;
+  margin: 150px auto;
+}
+
+.flname {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.pos-container label {
+  font-weight: 1000;
+
+}
+
+.pos-container li {
+  font-weight: 600;
+} 
+
+.pos-container h3 {
+  padding: 10px 0;
+} 
+
+
+/* booking html*/
+
+.booking-container {
+  max-width: 1400px;
+  margin: 150px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.booking-form {
+  background-color: white;
+  padding: 20px 20px;
+
+}
+
+form label {
+
+  font-weight: 1000 ;
+
+}
+
+form h3 {
+
+  font-weight: 1000 ;
+  padding: 1rem 0;
+  text-transform: uppercase;
+
+}
+
+.location h2 {
+  align-self: flex-start;
+}
+
+.book-map {
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media(max-width: 800px) {
-
- 
 
   .service-container{
     grid-template-columns: 1fr;
@@ -451,6 +530,10 @@ footer {
 
   .booking {
     display: none;
+  }
+
+  .footer-container h3 {
+    display: None;
   }
 
  

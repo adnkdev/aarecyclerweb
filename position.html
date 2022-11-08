@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilites.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Apply for position</title>
 </head>
 <body>
@@ -33,30 +34,88 @@
 
 
 
-    <section class="application-content">
+    <section class="pos-container">
+
+        <p>We are seeking an outstanding individual to join our highly talented and skilled team that is committed to expanding our business operations nationally and our reputation in the tyre recycling industry</p>
+        <p>You will have an overall responsibility for management of our fleet of heavy vehicles owned and operated by A&A recyclers. You will be required to have regular meetings with the CEO and Directors of the company.</p>
+        <p> Ideally, you will have worked in a similar environment with work experience demonstrating consistent work history managing fleet of vehicles, either as a Transport Company Manager or Fleet Manager. You will have a highly developed knowledge of the transport industry.</p>
+        <p>To be successful in this role, you must have:</p>
+        <li>At least 10 years management experience in the transport industry preferably working with tyre transport or other recycling businesses</li>
+        <li>Excellent interpersonal and communication skills</li>
+        <li>Must have a hands-on attitude</li>
+        <li>A flexible approach to working hours with the flexibility to work a variety of hours including weekends</li>
+        <p>The duties of the position broadly includes:</p>
+        <li>Organising and controlling the fleet of vehicles to transport recyclable tyres.</li>
+        <li>Organising the purchase and maintenance of transport vehicles, equipment and fuel</li>
+        <li>Liaising with clients to determine requirements and providing customers with advice</li>
+        <li>Receiving orders and bookings, and planning and implementing transportation schedules</li>
+        <li>Arranging collection and delivery of vehicles and recyclable materials</li>
+        <li>Maintaining business records and preparing operational statements and reports</li>
+        <li>Coordinating activities associated with the arrival, departure, loading and unloading of vehicles.</li>
+        <p>Ideally, we are looking for an applicant who is an Australian citizen or permanent resident.
+            If you believe you have these attributes, we have a position for you with an immediate start. You will work for a renowned and rapidly growing company that is committed to performing a vital role for this country in managing a growing environmental problem of ever increasing volume of work tyres in an innovative and sustainable manner.</p>
+
+        <p>To apply:</p>
+        <p>
+            Please forward an updated resume and cover letter clearly setting out why you believe you will be successful in this role. Please also include your employment references, if any.</p>
 
 
-        <form action="">
 
+
+
+
+
+
+
+
+
+        <form action="https://formspree.io/f/xyyvlkbg" method="POST"  >
             <div class="flname">
-                <label for="first name">first name</label>
+                <label for="first name">first name *</label>
                 <label for="last name">last name</label>
-                <input type="text" name="First name" id="fname">
-                <input type="text" name="Last name" id="lname">
-                <label for="howold">How old are you?</label>
-                <select name="How old are you" id="agequestion">
-                    <option value="null">select...</option>
-                    <option value="20">21</option>
-                    <option value="21">22</option>
-                </select>
+                <input class="field" type="text" name="First name" id="fname" required>
+                <input class="field" type="text" name="Last name" id="lname" required>  
+                <label for="first name">Email *</label>
+                <label for="last name">Confirm email *</label>
+                <input class="field" type="email" name="Email" id="email" required>
+                <input class="field" type="email" name="confirm-email" id="confirm-email" required>  
             </div>
-           
+            <label for="phone no">Phone no.</label>
+            <input class="field" type="text" name="Phone" id="pos-phone" required>
+            <h3>Email cover letter and resume to info@aarecycler.com ***</h3>
+            <h3>Ensure all details are accurate and sumbit ***</h3>
+            <button class="btn-form" type="submit">Send</button>
         </form>
-    
-
-    
-
     </section>
+
+
+
+    
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <a href="index.html"><img class="nav-logo" src="assets/logo2copy.png" alt=""></a>
+                <p>&copy; Copyright - A&A recyclers | Managed by Adnkmedia</p>
+            </div>
+
+            <ul>        
+                <li><a class="btn-shape" href="index.html">Home</a></li>
+                <li><a class="btn-shape" href="services.html">Services</a></li>
+                <li><a class="btn-shape" href="products.html">Products</a></li>
+                <li><a class="btn-shape" href="news.html">News</a></li>
+              
+            </ul>
+    
+
+            <div class="social-media">
+                <h3>Follow Us Here</h3>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilites.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bookings</title>
 </head>
 <body>
@@ -31,6 +32,115 @@
             </div>
         </div>
     </div>
+
+    <section class="booking-container">
+        <div class="booking-location">
+          
+            <h2>Location & details</h2>
+            <iframe class="book-map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.6834712383356!2d144.9561963152745!3d-37.72710697976815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65b327de946dd%3A0x3f11887284e5f765!2s89%20Bakers%20Rd%2C%20Coburg%20North%20VIC%203058!5e0!3m2!1sen!2sau!4v1667807388153!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+
+            <h4>Phone us on 040166080 to arrange for collection of your scrap tyres.</h4><br>
+            <h4>For all other enquiries please contact us at:</h4><br>
+            <h4>89-91 Bakers Rd,</h4>
+            <h4>Coburg North VIC 3058</h4>
+            <h4>Telephone: 0401666080  or 1300 358 732</h4>
+            <h4>Email: info@aarecycler.com.au</h4>
+
+            
+        
+            
+
+
+        </div>
+        <div class="booking-form">
+        <form action="https://formspree.io/f/xyyvlkbg" method="POST">
+
+
+
+            <h3>Customer Details</h3>
+            <div class="flname">
+                <label for="first name">first name *</label>
+                <label for="last name">last name *</label>
+                <input class="field" type="text" name="First name" id="fname" required>
+                <input class="field" type="text" name="Last name" id="lname" required>  
+                <label for="Email">Email *</label>
+                <label for="phone no">Phone no. *</label>
+                <input class="field" type="email" name="Email" id="email" required>
+                <input class="field" type="text" name="Phone" id="book-phone" required> 
+            </div>
+            <label for="first name">Collection Address *</label>
+            <input class="field" type="text" name="Address" id="book-address" required> 
+            <div class="flname">
+                <label for="Suburb">Suburb *</label>
+                <label for="State">State *</label>
+                <input class="field" type="text" name="Suburb" id="book-suburb" required>
+                <input class="field" type="text" name="State" id="book-state" required>  
+                <label for="postcode">Postcode *</label>
+                <input class="field" type="text" name="Postcode" id="book-postcode" required>
+            </div>
+
+            <h3>Payment Method</h3>
+            <div class="payment-option">
+                <input type="radio" id="cash" name="payment method" value="Cash">
+                <label for="Cash">Cash</label><br>
+                <input type="radio" id="Credit card" name="payment method" value="Credit card">
+                <label for="Credit card">Credit card</label><br>
+                <input type="radio" id="Cheque" name="payment method" value="Cheque">
+                <label for="Cheque">Cheque</label><br>
+                <input type="radio" id="Account" name="payment method" value="Account">
+                <label for="Account">Account</label>
+            </div>
+
+            <h3>Comments/Instructions</h3>
+            <textarea placeholder="Please advise any vehicle access issues or specific collection instructions" class="field" name="message"></textarea>
+
+            <p>We’ll confirm your collection by the next business day. For other contact options see above.</p>
+             <button class="btn-form" type="submit">Submit Booking</button>
+        </form>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <a href="index.html"><img class="nav-logo" src="assets/logo2copy.png" alt=""></a>
+                <p>&copy; Copyright - A&A recyclers | Managed by Adnkmedia</p>
+            </div>
+
+            <ul>
+      
+                <li><a class="btn-shape" href="index.html">Home</a></li>
+                <li><a class="btn-shape" href="services.html">Services</a></li>
+                <li><a class="btn-shape" href="products.html">Products</a></li>
+                <li><a class="btn-shape" href="news.html">News</a></li>
+              
+            </ul>
+    
+
+            <div class="social-media">
+                <h3>Follow Us Here</h3>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
     
 </body>
 </html>
