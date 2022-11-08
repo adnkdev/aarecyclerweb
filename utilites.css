@@ -43,3 +43,49 @@
 	cursor: pointer;
 	transition: .3s;
 }
+
+.btn-shape {
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.application-content {
+
+    border-style: solid;
+    border-color: black;
+    width: 1300px;
+    height: 500px;
+    margin: 200px auto;
+}
+
+.flname {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#agequestion {
+    width: 100%;
+    height: 200px;
+}
+
+
+.shadow {
+    position: relative;
+    box-shadow: 0 5px 20px rgb(0,0,0,.25);
+    transition: transform 300ms, box-shadow 300ms;
+
+}
+
+.shadow:hover {
+    scale: 1.02;
+    box-shadow: 0 15px 80px rgb(0,0,0,.25);
+
+
+
+}

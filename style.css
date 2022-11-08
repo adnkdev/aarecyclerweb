@@ -33,10 +33,6 @@ a {
 
 }
 
-a:hover {
-  background-color: #82c784;
-}
-
 h1,
 h2 {
   font-weight: 300;
@@ -90,7 +86,7 @@ p {
       
 }
 
-.navbar a:hover {
+ul a:hover {
   background-color: #82c784;
 }
 
@@ -155,7 +151,7 @@ p {
 
 }
 
-.calltoaction a {
+.homecontent h1 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -170,6 +166,11 @@ p {
   position: absolute;
   z-index: 50;
 }
+
+.homecontent a:hover {
+  background-color: #82c784;
+}
+
 
 
 /* position */
@@ -220,58 +221,62 @@ p {
 }
 
 .service1 {
-  border-style: solid;
-  border-color: black;
+ 
 
 }
 
 .service2 {
-  border-style: solid;
-  border-color: black;
-  
+
 }
 
 .product1{
-  border-style: solid;
-  border-color: black;
+
 
 }
 
 .product2{
-  border-style: solid;
-  border-color: black;
+ 
   
 }
 
 .pic1 {
-  border-style: solid;
-  border-color: black;
+  
+  background-image: url(assets/truckonhigh.jpeg);
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
 }
 
 .pic2 {
-  border-style: solid;
-  border-color: black;
+  
+  background-image: url(assets/tyre);
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+
 
 }.pic3 {
-  border-style: solid;
-  border-color: black;
+
+  background-image: url(assets/tyrebackground.jpg);
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+
 
 }.pic4 {
-  border-style: solid;
-  border-color: black;
+ 
 }
 
 .text {
-  border-style: solid;
-  border-color: black;
+  
   padding: 0 10px;
 
 }
+
+/* location-contact*/
 
 
 .location-contact {
 
   background-color: #5cb85c;
+
 }
 
 .location-contact-container{
@@ -283,6 +288,7 @@ p {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
+  
 
 }
 
@@ -345,8 +351,87 @@ p {
 }
 
 textarea{
-	min-height: 150px;
+	min-height: 300px;
 }
+
+
+/* footer*/
+
+
+footer {
+  background-color:  rgb(247, 247, 247) ;
+  margin-top: 50px;
+
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.footer-container {
+  background-color: rgb(247, 247, 247);
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  height: 150px;
+  grid-template-columns: repeat(3, 1fr);
+  border-style: solid;
+  border-color: #333;
+}
+
+
+
+.social-media {
+  width: 100%;
+  border-style: solid;
+  border-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.social-media li {
+  list-style: none;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
 
 
 @media(max-width: 800px) {
@@ -367,6 +452,8 @@ textarea{
   .booking {
     display: none;
   }
+
+ 
 
 
 }
