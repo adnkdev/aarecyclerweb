@@ -389,6 +389,7 @@ footer ul {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 5px;
 }
 
 .fa:hover {
@@ -406,7 +407,7 @@ footer ul {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   color: white;
 }
 
@@ -414,6 +415,13 @@ footer ul {
 
 
 /* position html*/
+
+
+.pos-container h1 {
+
+  font-weight: bolder;
+
+}
 
 .pos-container {
   max-width: 1100px;
@@ -479,12 +487,17 @@ form h3 {
 
 }
 
-.location h2 {
+.booking-location h2 {
   align-self: flex-start;
+  font-weight: 1000;
 }
 
 .book-map {
   width: 90%;
+}
+
+.location-content {
+  padding: 2rem 0;
 }
 
 
@@ -534,6 +547,10 @@ form h3 {
 
   .footer-container h3 {
     display: None;
+  }
+
+  .pos-container {
+    padding: 0 2rem;
   }
 
  
