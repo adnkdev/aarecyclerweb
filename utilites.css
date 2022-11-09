@@ -58,7 +58,7 @@
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
+	padding: 0.5rem 0.5rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
@@ -77,4 +77,8 @@
 
 
 
+}
+
+.green {
+    color: #2ecc71;
 }
