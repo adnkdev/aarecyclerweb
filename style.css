@@ -192,16 +192,27 @@ ul a:hover {
 }
 
 
+
+
 .mission-statement {
   padding: 2rem 0;
 }
 
+/*mission statement*/
 
-.mission-statement h1, h3{
+.mission-statement h1{
   font-weight: 900;
   margin: 0;
   text-align: center;
 }
+
+
+.mission-statement h3{
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
 
 
 
@@ -234,6 +245,14 @@ ul a:hover {
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+.service-container h1 {
+
+  font-weight: 1000;
 
 }
 
@@ -247,19 +266,23 @@ ul a:hover {
 
 .pic2 {
   
-  background-image: url(assets/tyre);
-  background-size: 500px 300px;
+  background-image: url(assets/crumbs.jpg);
+  background-size: 400px 300px;
   background-repeat: no-repeat;
 
 
 }.pic3 {
 
-  background-image: url(assets/tyrebackground.jpg);
-  background-size: 400px 300px;
+  background-image: url(assets/tyrestacked.jpeg);
+  background-size: 700px 300px;
   background-repeat: no-repeat;
 
 
 }.pic4 {
+
+  background-image: url(assets/tyrecollection.jpeg);
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
  
 }
 
@@ -525,6 +548,57 @@ form h3 {
 }
 
 /* news html*/
+
+
+.news-container {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 0 2rem;
+}
+
+.news-container h1 {
+  text-align: center;
+
+}
+
+
+.news-container h3 {
+  text-align: center;
+  
+}
+
+.news-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-image-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.news-container img {
+  height: 600px;
+  margin: 0 auto;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width80 {
+  width: 80%;
+}
+
+
+
+
+
 
 
 
