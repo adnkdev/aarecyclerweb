@@ -88,6 +88,7 @@ p {
 
 ul a:hover {
   background-color: #82c784;
+  transition: 0.4s;
 }
 
 
@@ -168,6 +169,7 @@ ul a:hover {
 
 .homecontent a:hover {
   background-color: #82c784;
+  transition: 0.4s;
 }
 
 
@@ -359,6 +361,7 @@ ul a:hover {
 .contact button:hover {
  
     background-color: #82c784;
+    transition: 0.4s;
 
 
 }
@@ -484,6 +487,11 @@ footer ul {
 .pos-container h3 {
   padding: 10px 0;
 } 
+
+.pos-container button :hover {
+  background-color: #82c784;
+  transition: 0.4s;
+}
 
 
 /* booking html*/
