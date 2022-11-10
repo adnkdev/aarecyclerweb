@@ -613,9 +613,10 @@ form h3 {
 .productservice-content {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 2rem;
+  padding: 2rem 20px;
   display: grid;
   grid-template-columns: 55% 45%;
+  
 
 }
 
@@ -627,6 +628,8 @@ form h3 {
 
 
 .granulation-video {
+  width: 90%;
+  height: 100%;
   padding: 15px 30px;
 }
 .productservice-content img {
@@ -647,13 +650,15 @@ form h3 {
   background: #5ebbd8;
 }
 
-.truckcasing {
 
- 
-}
 
 .productservice-description h2 {
   font-weight: 1000;
+
+}
+
+.productservice-description p {
+  padding: 10px 0px;
 
 }
 
@@ -742,6 +747,25 @@ form h3 {
 
   .booking-location {
     padding: 0 1rem;
+  }
+
+  .productservice-content{
+    grid-template-columns: 1fr;
+
+  }
+
+  .disposaltyre img  {
+    display: none;
+    
+  }
+  .truckcasing img{
+    display: none;
+    
+  }
+
+  .productservice-content h2{
+    text-align: center;
+
   }
 
  
