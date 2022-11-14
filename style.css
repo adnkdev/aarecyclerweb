@@ -517,6 +517,7 @@ footer ul {
   margin: 100px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 2rem
 }
 
 
@@ -577,7 +578,7 @@ form h3 {
 .news-container {
   max-width: 1000px;
   margin: 100px auto;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
 }
 
 .news-container h1 {
