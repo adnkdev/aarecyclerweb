@@ -20,20 +20,20 @@
     border: none;
     border-radius: 5px;
     color: white;
-  }
+}
 
   
-  .btn-phone{
+.btn-phone{
     padding: 5px 5px;
     cursor: pointer;
     background: #42a148 ;
     border: none;
     border-radius: 5px;
     color: white;
-  }
+}
 
 
-  .btn-form{
+.btn-form{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #42a148;
