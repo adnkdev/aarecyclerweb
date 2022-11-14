@@ -78,6 +78,10 @@ p {
     z-index: 9999;
 }
 
+.navbar li{
+overflow: hidden;
+}
+
 .nav-container {
 
     background-color: white;
