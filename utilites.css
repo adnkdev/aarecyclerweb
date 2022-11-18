@@ -82,6 +82,11 @@
     color: #2ecc71;
 }
 
+.green-dark {
+    color: green;
+    font-weight: 900;
+}
+
 .py {
     padding: 10px 10px;
 }

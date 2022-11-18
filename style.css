@@ -804,7 +804,22 @@ form h3 {
   .productservice-content{
     grid-template-columns: 1fr;
     width: 100%;
+  }
 
+  .truckcasing .productservice-content .productservice-description {
+    grid-row: 1 / 2 ;
+  }
+
+  .truckcasing .productservice-content .tread-tyre {
+    grid-row: 2 / 3 ;
+  }
+
+  .disposaltyre .productservice-content .productservice-description {
+    grid-row: 1 / 2 ;
+  }
+
+  .disposaltyre .productservice-content .circular-economy{
+    grid-row: 2 / 3 ;
   }
 
 
@@ -813,8 +828,6 @@ form h3 {
 
   }
 
-
- 
 
 
 }
