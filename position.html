@@ -9,8 +9,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="assets/logo2copy.png" type="image/icon type" sizes="16x16 32x32">
     <title>Apply for Fleet Manager</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
+<body id="top">
+    <div class="burger-menu hidden ">
+        <div class="menu-content">
+            <button class="close-btn">&times;</button>
+            <div class="menu-options">
+                <ul>
+                    <li><a class="btn-shape" href="index.html">Home</a></li>
+                    <li><a class="btn-shape" href="products.html#services">Services</a></li>
+                    <li><a class="btn-shape" href="products.html">Products</a></li>
+                    <li><a class="btn-shape" href="news.html">News</a></li>
+                    <p>Follow us here</p>
+
+                    <div class="social-media">
+                      
+                        <li><a href="https://www.facebook.com/profile.php?id=100087377634978" class="fa fa-facebook" target=”_blank”></a></li>
+                        <li><a href="https://twitter.com/AkbarAhsan7" target=”_blank” class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/aarecyclers/" target=”_blank” class="fa fa-instagram"></a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="burger-overlay hidden"></div>
+
     <div class="navbar">
         <div class="phone-email"><p>phone: 0401666080 / 0451038786 || email: info@aarecycler.com</p></div>
 
@@ -23,13 +51,14 @@
                 <li><a class="btn-shape" href="products.html#services">Services</a></li>
                 <li><a class="btn-shape" href="products.html">Products</a></li>
                 <li><a class="btn-phone booking" href="booking.html">Schedule a pickup</a></li>
+                <img class= "burger-icon hidden"src="assets/menu.png" alt="">
             </ul>
         
         </div>
         
     </div>
 
-
+    <div class="emptyspace"></div>
 
     <section class="pos-container">
 
@@ -108,6 +137,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>

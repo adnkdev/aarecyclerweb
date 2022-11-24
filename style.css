@@ -74,7 +74,7 @@ p {
     top: 0;
     background-color: white;
     width: 100%;
-    z-index: 9999;
+    z-index: 200;
     overflow-x: hidden;
 }
 
@@ -478,14 +478,13 @@ footer ul {
 
 
 .pos-container h1 {
-
   font-weight: bolder;
-
 }
 
 .pos-container {
   max-width: 1100px;
-  margin: 150px auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
 }
 
 .flname {
@@ -518,10 +517,10 @@ footer ul {
 
 .booking-container {
   max-width: 1400px;
-  margin: 100px auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 2rem
+  padding-top: 150px
 }
 
 
@@ -581,8 +580,8 @@ form h3 {
 
 .news-container {
   max-width: 1000px;
-  margin: 100px auto;
-  padding: 2rem 2rem;
+  margin: 0 auto;
+  padding: 150px 2rem;
 }
 
 .news-container h1 {
@@ -685,40 +684,104 @@ form h3 {
 
 
 
+/*burger menu*/
 
 
+body {
+  position: relative;
+}
+
+.burger-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 250;
+
+}
+
+.burger-icon {
+
+  width: 30px;
+  height: 30px;
+}
+
+.hidden {
+  display: none;
+
+}
+
+.burger-menu {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2000;
+  width: 300px;
+
+}
 
 
+.menu-content {
+
+  position: relative;
+  background-color: #5cb85c;
+  height: 3500px;
+  padding: 6rem 3rem;
+
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
+  color: white;
+}
+
+.menu-options li {
+ 
+  margin: 10px auto;
+  padding: 5px;
+  background-color: lightgreen;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.menu-options a {
+  font-weight: 800;
+
+}
+
+.menu-options p {
+  text-align: center;
+  font-weight: 900;
+  color: #f4f4f4;
+
+}
+
+.animation {
+  animation: right-to-left 300ms ease;
+}
+
+@keyframes right-to-left {
+
+  0% {
+    transform: translateX(100%);
+  }
 
 
+  100% {
+    transform: translateX(0);
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -731,7 +794,11 @@ form h3 {
   }
 
   .navbar li {
-    padding: 0;
+    display: none;
+  }
+
+  .navbar .hidden {
+    display: block;
   }
 
 
